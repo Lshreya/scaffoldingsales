@@ -65,20 +65,17 @@ a:hover {
 ============================ */
 .navbar-brand {
   float: left;
-  height: 50px;
+  height: 100px;
+  width:10%;
   padding: 15px 15px;
-  font-size: 18px;
   line-height: 20px;
 }
 
-.navbar-brand h1 {
+.navbar-brand img {
 	margin-top:9px;
 	padding-top:5px;
 	float: left;	
-	font-size: 25px;	
-	color:#fff;	
-	text-transform:uppercase;
-	font-weight:600;
+  
 }
 
 @media (max-width: 767px) {
@@ -139,7 +136,7 @@ a:hover {
 }
 
 .navbar-default {
-	background-color: red;
+	background-color: #ff3333;
 	border-color:red;
 }
 
@@ -981,7 +978,8 @@ textarea#message{
 ============================ */
 footer {
 	padding:50px;
-	background:red;
+  background:#ff3333;
+
 }
 
 footer p {
